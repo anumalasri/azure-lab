@@ -4,10 +4,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
-<p class="lead">Movie Details</p>
-	 [[${movie.imdb.rating} ]]
-	 
+<body> 
 	<div th:object="${movie}">
 		<div class="row">
 			<div class="offset-md-1 col-md-4">
@@ -51,7 +48,7 @@
 				<label class="col-form-label font-weight-bold"> Cast</label>
 			</div>
 			<div class="col-md-6">
-				<label class="col-form-label"> [[*{cast} ]]</label>
+				<span th:each="c1 : *{cast}" th:text="${c1}"></span>
 			</div>
 		</div>
 		<div class="row">
@@ -59,7 +56,7 @@
 				<label class="col-form-label font-weight-bold"> Directors</label>
 			</div>
 			<div class="col-md-6">
-				<label class="col-form-label"> [[*{directors} ]]</label>
+					<span th:each="c1 : *{directors}" th:text="${c1}"></span>
 			</div>
 		</div>
 		<div class="row">
@@ -70,8 +67,7 @@
 				<label class="col-form-label"> [[*{genres} ]]</label>
 			</div>
 		</div>
-		 
-		
+	 	
 		
 	</div>
 </body>

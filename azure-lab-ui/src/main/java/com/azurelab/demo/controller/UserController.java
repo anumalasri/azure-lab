@@ -62,7 +62,7 @@ public class UserController {
 	}
 	
 	@PostMapping("/update")
-	public String updateUser(@SessionAttribute(name="user") User user, Model model) {
+	public String updateUser(@ModelAttribute(name="user") User user, Model model) {
 		user.getPreferences().removeAll(Arrays.asList("null",null));
 		
 		User user2 = userService.createUser(user);

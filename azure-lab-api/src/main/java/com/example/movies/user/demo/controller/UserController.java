@@ -61,8 +61,9 @@ public class UserController {
 		logger.info("User Request {} ", newUser);
 		newUser.setId(newUser.getUsername());
 		newUser.setMovies(new ArrayList<>());
-		
-		repository.save(newUser);
+	 
+		repository.deleteById(newUser.getUsername());
+		repository. save(newUser);
 		logger.info("Created User ");
 		return newUser;
 

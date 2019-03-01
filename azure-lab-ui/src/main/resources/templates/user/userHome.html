@@ -48,12 +48,13 @@
 		 			<th style="width: 10%"><strong>Year</strong></th> 
 		 			<th style="width: 10%"><strong>Rating</strong></th>
 		 			
+		 			
 		 		</tr>
 		 	</thead>
 		 
 		 	<tbody>
 		 		<tr th:each="movie: ${user.movies}">
-		 			<th><a th:attr="data-href=@{/}+'movie/'+${movie.id}" id="movieDetails" data-toggle="modal" href="#movieModal">[[${movie.title}]]</a></th>
+		 			<th><a th:attr="data-href=@{/}+'movie/'+${movie.id}" class="movieLink" data-toggle="modal" href="#movieModal">[[${movie.title}]]</a></th>
 		 			<td >[[${movie.year}]]</td>
 		 			<td >[[${movie.rating}]]</td>
 		 	 	</tr>
@@ -89,9 +90,9 @@
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 	
-	$('#movieDetails').on('click', function() {
+	$('.movieLink').on('click', function() {
 		var dataURL = $(this).attr('data-href');
-
+		console.log(dataURL);
 		$('#movieModal .modal-body').load(dataURL, function() {
 			$('#movieModal').modal({
 				show : true
