@@ -1,0 +1,525 @@
+[{
+    "_id" : ObjectId("573a1390f29313caabcd5293"),
+    "title" : "The Perils of Pauline",
+    "year" : 1914,
+    "runtime" : 199,
+    "released" : ISODate("1914-03-23T00:00:00.000Z"),
+    "cast" : [ 
+        "Pearl White", 
+        "Crane Wilbur", 
+        "Paul Panzer", 
+        "Edward Jos�"
+    ],
+    "poster" : "http://ia.media-imdb.com/images/M/MV5BMzgxODk1Mzk2Ml5BMl5BanBnXkFtZTgwMDg0NzkwMjE@._V1_SX300.jpg",
+    "plot" : "Young Pauline is left a lot of money when her wealthy uncle dies. However, her uncle's secretary has been named as her guardian until she marries, at which time she will officially take ...",
+    "fullplot" : "Young Pauline is left a lot of money when her wealthy uncle dies. However, her uncle's secretary has been named as her guardian until she marries, at which time she will officially take possession of her inheritance. Meanwhile, her \"guardian\" and his confederates constantly come up with schemes to get rid of Pauline so that he can get his hands on the money himself.",
+    "awards" : "1 win.",
+    "lastupdated" : "2015-09-12 00:01:18.647000000",
+    "type" : "movie",
+    "languages" : [ 
+        "English"
+    ],
+    "directors" : [ 
+        "Louis J. Gasnier", 
+        "Donald MacKenzie"
+    ],
+    "writers" : [ 
+        "Charles W. Goddard (screenplay)", 
+        "Basil Dickey (screenplay)", 
+        "Charles W. Goddard (novel)", 
+        "George B. Seitz", 
+        "Bertram Millhauser"
+    ],
+    "imdb" : {
+        "rating" : 7.6,
+        "votes" : 744,
+        "id" : 4465
+    },
+    "countries" : [ 
+        "USA"
+    ],
+    "genres" : [ 
+        "Action"
+    ],
+    "tomatoes" : {
+        "viewer" : {
+            "rating" : 2.8,
+            "numReviews" : 9
+        },
+        "production" : "Path� Fr�res",
+        "lastUpdated" : ISODate("2015-09-11T17:46:19.000Z")
+    },
+    "num_mflix_comments" : 1,
+    "comments" : [ 
+        {
+            "name" : "Jeor Mormont",
+            "email" : "james_cosmo@gameofthron.es",
+            "movie_id" : ObjectId("573a1390f29313caabcd5293"),
+            "text" : "Eaque iste corporis quo tempora provident sunt dolore. Sed fugit assumenda quod iste. Itaque reprehenderit fugit quod voluptates.",
+            "date" : ISODate("1993-06-26T02:50:40.000Z")
+        }
+    ]
+},
+
+ 
+{
+    "_id" : ObjectId("573a1390f29313caabcd5967"),
+    "title" : "Les vampires",
+    "year" : 1915,
+    "runtime" : 399,
+    "released" : ISODate("1916-11-23T00:00:00.000Z"),
+    "cast" : [ 
+        "Musidora", 
+        "�douard Math�", 
+        "Marcel L�vesque", 
+        "Jean Aym�"
+    ],
+    "poster" : "http://ia.media-imdb.com/images/M/MV5BMTc1NTY3NDIzNl5BMl5BanBnXkFtZTgwNTIyODg5MTE@._V1_SX300.jpg",
+    "plot" : "An intrepid reporter and his loyal friend battle a bizarre secret society of criminals known as The Vampires.",
+    "fullplot" : "An intrepid reporter and his loyal friend battle a bizarre secret society of criminals known as The Vampires.",
+    "awards" : "1 nomination.",
+    "lastupdated" : "2015-09-02 00:24:27.333000000",
+    "type" : "movie",
+    "languages" : [ 
+        "French"
+    ],
+    "directors" : [ 
+        "Louis Feuillade"
+    ],
+    "writers" : [ 
+        "Louis Feuillade"
+    ],
+    "imdb" : {
+        "rating" : 6.8,
+        "votes" : 2878,
+        "id" : 6206
+    },
+    "countries" : [ 
+        "France"
+    ],
+    "rated" : "NOT RATED",
+    "genres" : [ 
+        "Action", 
+        "Adventure", 
+        "Crime"
+    ],
+    "tomatoes" : {
+        "viewer" : {
+            "rating" : 3.8,
+            "numReviews" : 2118,
+            "meter" : 82
+        },
+        "dvd" : ISODate("2000-05-16T00:00:00.000Z"),
+        "rotten" : 0,
+        "lastUpdated" : ISODate("2015-09-15T17:02:33.000Z"),
+        "critic" : {
+            "rating" : 8.8,
+            "numReviews" : 13,
+            "meter" : 100
+        },
+        "fresh" : 13
+    }
+},
+
+{
+    "_id" : ObjectId("573a1391f29313caabcd68d0"),
+    "title" : "From Hand to Mouth",
+    "year" : 1919,
+    "runtime" : 22,
+    "released" : ISODate("1919-12-28T00:00:00.000Z"),
+    "cast" : [ 
+        "Harold Lloyd", 
+        "Mildred Davis", 
+        "'Snub' Pollard", 
+        "Peggy Cartwright"
+    ],
+    "poster" : "http://ia.media-imdb.com/images/M/MV5BNTU0NjcxNDg2OV5BMl5BanBnXkFtZTcwODMzOTAzMQ@@._V1_SX300.jpg",
+    "plot" : "A penniless young man tries to save an heiress from kidnappers and help her secure her inheritance.",
+    "fullplot" : "As a penniless man worries about how he will manage to eat, he is joined by a young waif and her dog, who are in the same predicament. Meanwhile, across town a dishonest lawyer is working with a gang of criminals, trying to swindle an innocent young heiress out of her inheritance. As the heiress is on her way home from the lawyer's office, she notices the young man and the waif in the midst of their latest problem with the authorities, and she rescues them. Later on, the young man will have an unexpected opportunity to repay her for her kindness.",
+    "awards" : "1 nomination.",
+    "lastupdated" : "2015-04-17 00:16:14.220000000",
+    "type" : "movie",
+    "languages" : [ 
+        "English"
+    ],
+    "directors" : [ 
+        "Alfred J. Goulding", 
+        "Hal Roach"
+    ],
+    "writers" : [ 
+        "H.M. Walker (titles)"
+    ],
+    "imdb" : {
+        "rating" : 7.0,
+        "votes" : 639,
+        "id" : 10146
+    },
+    "countries" : [ 
+        "USA"
+    ],
+    "rated" : "TV-G",
+    "genres" : [ 
+        "Comedy", 
+        "Short", 
+        "Action"
+    ],
+    "tomatoes" : {
+        "viewer" : {
+            "rating" : 3.3,
+            "numReviews" : 71,
+            "meter" : 55
+        },
+        "production" : "Path� Exchange",
+        "lastUpdated" : ISODate("2015-08-21T18:45:11.000Z")
+    }
+},
+{
+    "_id" : ObjectId("573a1390f29313caabcd4136"),
+    "title" : "Pauvre Pierrot",
+    "year" : 1892,
+    "runtime" : 4,
+    "released" : ISODate("1892-10-28T00:00:00.000Z"),
+    "plot" : "One night, Arlequin come to see his lover Colombine. But then Pierrot knocks at the door and Colombine and Arlequin hide. Pierrot starts singing but Arlequin scares him and the poor man goes away.",
+    "fullplot" : "One night, Arlequin come to see his lover Colombine. But then Pierrot knocks at the door and Colombine and Arlequin hide. Pierrot starts singing but Arlequin scares him and the poor man goes away.",
+    "lastupdated" : "2015-08-12 00:06:02.720000000",
+    "type" : "movie",
+    "directors" : [ 
+        "�mile Reynaud"
+    ],
+    "imdb" : {
+        "rating" : 6.7,
+        "votes" : 566,
+        "id" : 3
+    },
+    "countries" : [ 
+        "France"
+    ],
+    "genres" : [ 
+        "Animation", 
+        "Comedy", 
+        "Short"
+    ],
+    "num_mflix_comments" : 1,
+    "comments" : [ 
+        {
+            "name" : "Warren Wilson",
+            "email" : "warren_wilson@fakegmail.com",
+            "movie_id" : ObjectId("573a1390f29313caabcd4136"),
+            "text" : "Repudiandae minus voluptates quidem hic corporis corrupti id. Ipsum assumenda laborum officiis aliquam. Dolorum voluptatum saepe blanditiis. Eos modi dolores architecto laboriosam porro.",
+            "date" : ISODate("2005-01-04T11:56:37.000Z")
+        }
+    ]
+},
+{
+    "_id" : ObjectId("573a1390f29313caabcd413e"),
+    "title" : "Tables Turned on the Gardener",
+    "year" : 1895,
+    "runtime" : 1,
+    "cast" : [ 
+        "Fran�ois Clerc", 
+        "Beno�t Duval"
+    ],
+    "plot" : "A gardener is watering his flowers, when a mischievous boy sneaks up behind his back, and puts a foot on the water hose. The gardener is surprised, and looks into the nozzle to find out why...",
+    "fullplot" : "A gardener is watering his flowers, when a mischievous boy sneaks up behind his back, and puts a foot on the water hose. The gardener is surprised, and looks into the nozzle to find out why the water has stopped coming. The boy lifts his foot from the hose, whereby the water squirts up in the gardener's face. The gardener chases the boy, grips his ear, and slaps him in his buttocks. The boy runs away, and the gardener continues his watering.",
+    "lastupdated" : "2015-08-12 00:06:18.237000000",
+    "type" : "movie",
+    "directors" : [ 
+        "Louis Lumi�re"
+    ],
+    "imdb" : {
+        "rating" : 7.1,
+        "votes" : 2554,
+        "id" : 14
+    },
+    "countries" : [ 
+        "France"
+    ],
+    "genres" : [ 
+        "Comedy", 
+        "Short"
+    ],
+    "num_mflix_comments" : 3,
+    "comments" : [ 
+        {
+            "name" : "Amanda Tanner",
+            "email" : "amanda_tanner@fakegmail.com",
+            "movie_id" : ObjectId("573a1390f29313caabcd413e"),
+            "text" : "Atque tenetur molestias error. Facilis cumque sequi dolore rerum at repudiandae in. Maxime illum repudiandae cupiditate autem cum.",
+            "date" : ISODate("1988-06-25T03:47:52.000Z")
+        }, 
+        {
+            "name" : "Susan Chavez",
+            "email" : "susan_chavez@fakegmail.com",
+            "movie_id" : ObjectId("573a1390f29313caabcd413e"),
+            "text" : "Aut similique harum voluptas ut non eum aperiam. Iste earum ea dicta repudiandae. Voluptatem aliquam blanditiis quidem quisquam.",
+            "date" : ISODate("1984-07-17T06:24:00.000Z")
+        }, 
+        {
+            "name" : "Tywin Lannister",
+            "email" : "charles_dance@gameofthron.es",
+            "movie_id" : ObjectId("573a1390f29313caabcd413e"),
+            "text" : "Assumenda inventore harum perspiciatis eaque. Dolor dolores ab dolore repudiandae quisquam corrupti commodi.",
+            "date" : ISODate("1982-04-24T17:12:12.000Z")
+        }
+    ]
+},
+{
+    "_id" : ObjectId("573a1390f29313caabcd428d"),
+    "title" : "The India Rubber Head",
+    "year" : 1901,
+    "runtime" : 3,
+    "cast" : [ 
+        "Georges M�li�s"
+    ],
+    "plot" : "A chemist in his laboratory places upon a table his own head, alive; then fixing upon his head a rubber tube with a pair of bellows, he begins to blow with all his might. Immediately the ...",
+    "fullplot" : "A chemist in his laboratory places upon a table his own head, alive; then fixing upon his head a rubber tube with a pair of bellows, he begins to blow with all his might. Immediately the head increases in size and continues to enlarge until it becomes truly colossal while making faces. The chemist, fearing to burst it, opens a cock in the tube. The head immediately contracts and resumes its original size. He then calls his assistant and informs him of his discovery. The assistant, wishing to experiment for himself, seizes the bellows and blows into the head with all his might. The head swells until it bursts with a crash, knocking over the two experimenters.",
+    "lastupdated" : "2015-08-29 00:24:23.860000000",
+    "type" : "movie",
+    "directors" : [ 
+        "Georges M�li�s"
+    ],
+    "imdb" : {
+        "rating" : 7.2,
+        "votes" : 1439,
+        "id" : 359
+    },
+    "countries" : [ 
+        "France"
+    ],
+    "genres" : [ 
+        "Short", 
+        "Comedy"
+    ],
+    "tomatoes" : {
+        "viewer" : {
+            "rating" : 3.9,
+            "numReviews" : 97
+        },
+        "lastUpdated" : ISODate("2015-08-04T20:07:17.000Z")
+    },
+    "num_mflix_comments" : 2,
+    "comments" : [ 
+        {
+            "name" : "Anthony Hall",
+            "email" : "anthony_hall@fakegmail.com",
+            "movie_id" : ObjectId("573a1390f29313caabcd428d"),
+            "text" : "Sunt nobis doloribus neque asperiores sunt magnam sapiente. Quas quos nam maxime reiciendis.",
+            "date" : ISODate("2005-06-10T14:18:22.000Z")
+        }, 
+        {
+            "name" : "Donna Johnson",
+            "email" : "donna_johnson@fakegmail.com",
+            "movie_id" : ObjectId("573a1390f29313caabcd428d"),
+            "text" : "Reprehenderit quidem quae labore earum necessitatibus est repudiandae. A facere eum eum enim beatae saepe eaque. Nisi praesentium vel fuga soluta reiciendis dignissimos.",
+            "date" : ISODate("1992-12-15T09:08:58.000Z")
+        }
+    ]
+},
+{
+    "_id" : ObjectId("573a1390f29313caabcd45ec"),
+    "title" : "Frankenstein",
+    "year" : 1910,
+    "runtime" : 16,
+    "released" : ISODate("1910-03-18T00:00:00.000Z"),
+    "cast" : [ 
+        "Mary Fuller", 
+        "Charles Ogle", 
+        "Augustus Phillips"
+    ],
+    "poster" : "http://ia.media-imdb.com/images/M/MV5BMTg2NjMyMjgxOF5BMl5BanBnXkFtZTgwOTMyNzM2MzE@._V1_SX300.jpg",
+    "plot" : "Frankenstein, a young medical student, trying to create the perfect human being, instead creates a misshapen monster. Made ill by what he has done, Frankenstein is comforted by his fianc�e ...",
+    "fullplot" : "Frankenstein, a young medical student, trying to create the perfect human being, instead creates a misshapen monster. Made ill by what he has done, Frankenstein is comforted by his fianc�e but on his wedding night he is visited by the monster. A fight ensues but the monster, seeing himself in a mirror, is horrified and runs away. He later returns, entering the new bride's room, and finds her alone.",
+    "lastupdated" : "2015-08-28 00:56:44.097000000",
+    "type" : "movie",
+    "languages" : [ 
+        "English"
+    ],
+    "directors" : [ 
+        "J. Searle Dawley"
+    ],
+    "writers" : [ 
+        "Mary Shelley (novel)", 
+        "J. Searle Dawley"
+    ],
+    "imdb" : {
+        "rating" : 6.5,
+        "votes" : 2149,
+        "id" : 1223
+    },
+    "countries" : [ 
+        "USA"
+    ],
+    "rated" : "UNRATED",
+    "genres" : [ 
+        "Short", 
+        "Fantasy", 
+        "Horror"
+    ],
+    "tomatoes" : {
+        "viewer" : {
+            "rating" : 3.4,
+            "numReviews" : 541,
+            "meter" : 57
+        },
+        "lastUpdated" : ISODate("2015-08-26T18:01:25.000Z")
+    },
+    "num_mflix_comments" : 2,
+    "comments" : [ 
+        {
+            "name" : "Eddie Hunter",
+            "email" : "eddie_hunter@fakegmail.com",
+            "movie_id" : ObjectId("573a1390f29313caabcd45ec"),
+            "text" : "Et quo alias repudiandae quis expedita placeat est aut. Facere molestias a quis sed consequuntur omnis. Unde dignissimos quod hic ex ipsa voluptatem qui.",
+            "date" : ISODate("2010-01-19T00:42:34.000Z")
+        }, 
+        {
+            "name" : "Bowen Marsh",
+            "email" : "michael_condron@gameofthron.es",
+            "movie_id" : ObjectId("573a1390f29313caabcd45ec"),
+            "text" : "Delectus ut accusantium nihil facilis. Consequatur possimus incidunt aut blanditiis distinctio blanditiis est. Ratione dicta laboriosam animi magni adipisci a pariatur.",
+            "date" : ISODate("1986-01-16T13:13:52.000Z")
+        }
+    ]
+},
+{
+    "_id" : ObjectId("573a1390f29313caabcd4e7c"),
+    "title" : "The Student of Prague",
+    "year" : 1913,
+    "runtime" : "The Student of Prague",
+    "released" : ISODate("1913-09-01T00:00:00.000Z"),
+    "cast" : [ 
+        "Grete Berger", 
+        "John Gottowt", 
+        "Lyda Salmonova", 
+        "Paul Wegener"
+    ],
+    "poster" : "http://ia.media-imdb.com/images/M/MV5BMTk0OTk4Njc5MF5BMl5BanBnXkFtZTcwODgwODUyMQ@@._V1_SX300.jpg",
+    "plot" : "A poor student rescues a beautiful countess and soon becomes obsessed with her. A sorcerer makes a deal with the young man to give him fabulous wealth and anything he wants, if he will sign...",
+    "fullplot" : "A poor student rescues a beautiful countess and soon becomes obsessed with her. A sorcerer makes a deal with the young man to give him fabulous wealth and anything he wants, if he will sign his name to a contract. The student hurriedly signs the contract, but doesn't know what he's in for.",
+    "lastupdated" : "2015-09-02 00:34:13.180000000",
+    "type" : "movie",
+    "languages" : [ 
+        "English", 
+        "German"
+    ],
+    "directors" : [ 
+        "Stellan Rye"
+    ],
+    "writers" : [ 
+        "Alfred de Musset (poem)", 
+        "Edgar Allan Poe (story)", 
+        "Hanns Heinz Ewers"
+    ],
+    "imdb" : {
+        "rating" : 6.5,
+        "votes" : 994,
+        "id" : 3419
+    },
+    "countries" : [ 
+        "Germany"
+    ],
+    "genres" : [ 
+        "Drama", 
+        "Fantasy", 
+        "Horror"
+    ],
+    "tomatoes" : {
+        "viewer" : {
+            "rating" : 3.2,
+            "numReviews" : 145,
+            "meter" : 46
+        },
+        "dvd" : ISODate("2005-03-01T00:00:00.000Z"),
+        "lastUpdated" : ISODate("2015-08-10T18:32:45.000Z")
+    },
+    "metacritic" : null,
+    "comments" : [ 
+        {
+            "name" : "Melissa Poole",
+            "email" : "melissa_poole@fakegmail.com",
+            "movie_id" : ObjectId("573a13a3f29313caabd0f254"),
+            "text" : "Iste distinctio quia mollitia eligendi. Nobis at dolorum quisquam repellendus.",
+            "date" : ISODate("2011-04-24T05:17:31.000Z")
+        }, 
+        {
+            "name" : "Yara Greyjoy",
+            "email" : "gemma_whelan@gameofthron.es",
+            "movie_id" : ObjectId("573a13a3f29313caabd0f254"),
+            "text" : "Nobis aut quibusdam sint aperiam quisquam tempora eligendi. Dicta dicta modi iste nemo. Dolorem similique tempore ratione debitis consequatur ratione minima.",
+            "date" : ISODate("2001-03-25T11:33:00.000Z")
+        }, 
+        {
+            "name" : "Jordan Nunez",
+            "email" : "jordan_nunez@fakegmail.com",
+            "movie_id" : ObjectId("573a13a3f29313caabd0f254"),
+            "text" : "Voluptate neque porro odio provident unde. Ut neque maxime excepturi ipsum vel pariatur soluta pariatur.",
+            "date" : ISODate("1979-03-08T04:45:45.000Z")
+        }
+    ],
+    "num_mflix_commenents" : 3
+},
+{
+    "_id" : ObjectId("573a1390f29313caabcd5d38"),
+    "title" : "The Queen of Spades",
+    "year" : 1916,
+    "runtime" : 63,
+    "released" : ISODate("1917-11-18T00:00:00.000Z"),
+    "cast" : [ 
+        "Tamara Duvan", 
+        "Ivan Mozzhukhin", 
+        "Vera Orlova", 
+        "Nikolai Panov"
+    ],
+    "plot" : "While hosting a game of cards one night, Narumov tells his friends a story about his grandmother, a Countess. As a young woman, she had once incurred an enormous gambling debt, which she ...",
+    "fullplot" : "While hosting a game of cards one night, Narumov tells his friends a story about his grandmother, a Countess. As a young woman, she had once incurred an enormous gambling debt, which she was able to erase by learning a secret that guaranteed that she could win by playing her cards in a certain order. One of Narumov's friends, German, has never gambled, but he is intrigued by the story about the Countess and her secret. He soon becomes obsessed with learning this secret from her, and he starts by courting her young ward Lizaveta, hoping to use her to gain access to the Countess.",
+    "lastupdated" : "2015-08-23 00:55:11.530000000",
+    "type" : "movie",
+    "languages" : [ 
+        "Russian"
+    ],
+    "directors" : [ 
+        "Yakov Protazanov"
+    ],
+    "writers" : [ 
+        "Alexander Pushkin (short story \"The Queen of Spades\")", 
+        "Fyodor Otsep", 
+        "Yakov Protazanov"
+    ],
+    "imdb" : {
+        "rating" : 6.3,
+        "votes" : 275,
+        "id" : 7183
+    },
+    "countries" : [ 
+        "Russia"
+    ],
+    "genres" : [ 
+        "Drama", 
+        "Fantasy", 
+        "Horror"
+    ],
+    "tomatoes" : {
+        "viewer" : {
+            "rating" : 0.0,
+            "numReviews" : 0
+        },
+        "lastUpdated" : ISODate("2015-08-26T18:20:35.000Z")
+    },
+    "num_mflix_comments" : 2,
+    "comments" : [ 
+        {
+            "name" : "Kenneth Morris",
+            "email" : "kenneth_morris@fakegmail.com",
+            "movie_id" : ObjectId("573a1390f29313caabcd5d38"),
+            "text" : "Necessitatibus possimus facere illo nihil quos architecto. Maxime quis sapiente sequi deserunt blanditiis.\nQuod tempore placeat porro. Recusandae autem ipsa culpa quas explicabo aliquid illum qui.",
+            "date" : ISODate("2000-07-25T20:20:12.000Z")
+        }, 
+        {
+            "name" : "Othell Yarwyck",
+            "email" : "brian_fortune@gameofthron.es",
+            "movie_id" : ObjectId("573a1390f29313caabcd5d38"),
+            "text" : "Fugiat nam iure facilis quasi magni doloribus doloremque. Odit cumque nesciunt alias rem. Veniam sed beatae dicta. Officiis voluptatem ab perspiciatis ex deserunt suscipit.",
+            "date" : ISODate("1986-07-28T19:15:53.000Z")
+        }
+    ]
+}]

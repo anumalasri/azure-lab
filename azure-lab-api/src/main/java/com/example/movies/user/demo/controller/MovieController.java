@@ -90,7 +90,12 @@ public class MovieController {
 		AggregationResults<Document> results =  template.aggregate(aggregation, "movies", Document.class);
 		
 		List<String> response = new ArrayList<String>();
-		results.getMappedResults().subList(0, 10).forEach(doc -> {   response.add(doc.getString("_id")); });
+		if (results.getMappedResults().size() > 10 ) {
+			results.getMappedResults().subList(0, 10).forEach(doc -> {   response.add(doc.getString("_id")); });
+		} else {
+			results.getMappedResults().forEach(doc -> {   response.add(doc.getString("_id")); });
+			
+		}
 		
 		return response;
 		

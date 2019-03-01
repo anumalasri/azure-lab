@@ -99,30 +99,32 @@ public class UserController {
 		User user=repository.findByUsername(username);
 		
 		List<String> preferneces = user.getPreferences();
-		
+		logger.info("User : {}, User Preferences: {} " , username, preferneces);
 		Query query = new Query();
 		
 		query.addCriteria(Criteria.where("genres").in(preferneces));
-		query.with(new Sort(Sort.Direction.DESC, "$imdb.rating"));
-		query.fields().include("title").include("year").include("imdb");
+//		query.with(new Sort(Sort.Direction.DESC, "$imdb.rating"));
+		query.fields().include("title").include("year").include("genres").include("imdb");
+		
 		query.with(PageRequest.of(0, 20));
 		
 		List<Document> movies = template.find(query, Document.class, "movies");
 		
 		List<Object> movies2 = new ArrayList<Object>();
 		
-		movies.forEach(mov-> {
+ 		movies.forEach(mov-> {
 			Document doc = new Document();
 			doc.put("id", mov.get("_id").toString());
 			doc.put("title", mov.getString("title"));
 			doc.put("year", mov.getInteger("year"));
+			doc.put("genres", mov.get("genres"));
 			Document imdb = (Document) mov.get("imdb");
 			doc.put("rating", imdb.get("rating"));
 			movies2.add(doc);
 		});
 		
 		 
-		
+		logger.info("Movies found based on Preferences: {}", movies2);
 		//List<Object> movies = movieRepo.finduserPreferredMovies(preferneces, PageRequest.of(1, 20));
 		
 		user.setMovies(movies2);
