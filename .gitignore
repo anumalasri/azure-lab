@@ -3,7 +3,7 @@ HELP.md
 /build/
 /bin/
 **/bin/
-**/bin/
+**/build/
 !gradle/wrapper/gradle-wrapper.jar
  
 ### STS ###
