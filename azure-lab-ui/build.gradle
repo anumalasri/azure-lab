@@ -11,7 +11,20 @@ version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
-	jcenter()
+    maven {
+        credentials {
+            username "${artifactory_user}"
+            password "${artifactory_password}"
+        }
+        url "${artifactory_contextUrl}/libs-release"
+    }
+    maven {
+        credentials {
+            username "${artifactory_user}"
+            password "${artifactory_password}"
+        }
+        url "${artifactory_contextUrl}/libs-snapshot"
+    }
 }
 
 

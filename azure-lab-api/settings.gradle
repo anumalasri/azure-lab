@@ -18,4 +18,4 @@ pluginManagement {
 		}
 	}
 }
-rootProject.name = 'azure-lab-ui'
+rootProject.name = 'azure-lab-api'
