@@ -1,0 +1,21 @@
+pluginManagement {
+	repositories {
+		 maven {
+		   url "${artifactory_contextUrl}/libs-release"
+			credentials {
+				username "${artifactory_user}"
+				password "${artifactory_password}"
+			}
+		}
+	}
+	resolutionStrategy {
+		eachPlugin {
+			if (requested.id.id == 'org.springframework.boot') {
+				useModule "org.springframework.boot:spring-boot-gradle-plugin:${requested.version}"
+			} else if (requested.id.id == 'io.spring.dependency-management') {
+				useModule "io.spring.gradle:dependency-management-plugin:${requested.version}"
+			}
+		}
+	}
+}
+rootProject.name = 'azure-lab-ui'

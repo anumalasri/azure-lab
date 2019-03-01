@@ -1,0 +1,39 @@
+plugins {
+    id "org.springframework.boot" version '2.1.1.RELEASE'
+    id "io.spring.dependency-management" version "1.0.6.RELEASE"
+	id 'java'
+	id 'eclipse'
+	
+}
+
+group = 'com.azurelab'
+version = '1.0.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	jcenter()
+}
+
+
+springBoot {
+	mainClassName = 'com.azurelab.demo.DemoApplication'
+}
+
+ext {
+	set('azureVersion', '2.1.0')
+}
+
+dependencies {
+compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '2.1.3.RELEASE'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.microsoft.azure:azure-spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "com.microsoft.azure:azure-spring-boot-bom:${azureVersion}"
+	}
+}
+
+
