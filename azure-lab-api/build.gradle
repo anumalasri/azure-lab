@@ -16,7 +16,7 @@ repositories {
 
 
 springBoot {
-	mainClassName = 'com.azurelab.demo.DemoApplication'
+	mainClassName = 'com.example.movies.user.demo.DemoApplication'
 }
 
 ext {

@@ -21,7 +21,7 @@ public class MovieController {
 	public String getMovie(@PathVariable String movieId, Model model) {
 		Movie movie = movieService.getMovie(movieId);
 		model.addAttribute("movie", movie);
-		return "/movieDetails";
+		return "movieDetails";
 		
 		
 	}
