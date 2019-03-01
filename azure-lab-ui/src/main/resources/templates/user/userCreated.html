@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create User</title>
+<link rel="stylesheet" media="all"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+
+</head>
+<body>
+	<div class="container mb-3">
+
+		<header>
+
+			<div id="logo" class="row" style="overflow: hidden;">
+				<img th:src="@{/azure.png}" height="auto" align="middle"
+					style="float: left" alt="Azure Lab Demo" />
+				<div style="vertical-align: top;" class="align-middle">
+					<h1>Azure Lab Demo</h1>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<div class="container">
+		 <div th:if="${user!=null}"> 
+		 	User has been successfully created.
+			<br>
+			UserName: [[${user.username}]] 	
+		 </div>
+
+
+		<div> 
+			<a th:href="@{/user/home}"> Home Page</a>
+		</div>
+	</div>
+
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script type="text/javascript"
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

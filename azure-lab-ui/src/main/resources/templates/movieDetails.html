@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p class="lead">Movie Details</p>
+	 [[${movie.imdb.rating} ]]
+	 
+	<div th:object="${movie}">
+		<div class="row">
+			<div class="offset-md-1 col-md-4">
+				<label class="col-form-label font-weight-bold"> Title</label>
+			</div>
+			<div class="col-md-6">
+				<label class="col-form-label"> [[*{title} ]]</label>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="offset-md-1 col-md-4">
+				<label class="col-form-label font-weight-bold"> Plot</label>
+			</div>
+			<div class="col-md-6">
+				<label class="col-form-label"> [[*{plot} ]]</label>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="offset-md-1 col-md-4">
+				<label class="col-form-label font-weight-bold"> Year</label>
+			</div>
+			<div class="col-md-6">
+				<label class="col-form-label"> [[*{year} ]]</label>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="offset-md-1 col-md-4">
+				<label class="col-form-label font-weight-bold"> Rating</label>
+			</div>
+			<div class="col-md-6">
+				<label class="col-form-label"> [[*{imdb.rating} ]]</label>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="offset-md-1 col-md-4">
+				<label class="col-form-label font-weight-bold"> Cast</label>
+			</div>
+			<div class="col-md-6">
+				<label class="col-form-label"> [[*{cast} ]]</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="offset-md-1 col-md-4">
+				<label class="col-form-label font-weight-bold"> Directors</label>
+			</div>
+			<div class="col-md-6">
+				<label class="col-form-label"> [[*{directors} ]]</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="offset-md-1 col-md-4">
+				<label class="col-form-label font-weight-bold"> Genres</label>
+			</div>
+			<div class="col-md-6">
+				<label class="col-form-label"> [[*{genres} ]]</label>
+			</div>
+		</div>
+		 
+		
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create User</title>
+<link rel="stylesheet" media="all"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+
+</head>
+<body>
+	<div class="container mb-3">
+
+		<header>
+
+			<div id="logo" class="row" style="overflow: hidden;">
+				<img th:src="@{/azure.png}" height="auto" align="middle"
+					style="float: left" alt="Azure Lab Demo" />
+				<div style="vertical-align: top;" class="align-middle">
+					<h1>Azure Lab Demo</h1>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2>Create New User</h2>
+			</div>
+		</div>
+
+		<form id="userForm" method="post" th:action="@{/user}"
+			th:object="${user}">
+			<div class="form-group d-flex justify-content-center">
+				<label for="username" class="col-lg-2 col-form-label">User
+					Name</label>
+				<div class="col-lg-6">
+					<input type="text" class="form-control" th:field="*{username}" />
+				</div>
+			</div>
+
+			<div class="form-group d-flex justify-content-center">
+				<label for="password" class="col-lg-2 col-form-label">
+					Password</label>
+				<div class="col-lg-6">
+					<input type="password" class="form-control" th:field="*{password}" />
+				</div>
+			</div>
+
+
+			<div class="form-group d-flex justify-content-center">
+				<label for="firstName" class="col-lg-2 col-form-label">First
+					Name</label>
+				<div class="col-lg-6">
+					<input type="text" class="form-control" th:field="*{firstName}" />
+				</div>
+			</div>
+
+
+			<div class="form-group d-flex justify-content-center">
+				<label for="lastName" class="col-lg-2 col-form-label">Last
+					Name</label>
+				<div class="col-lg-6">
+					<input type="text" class="form-control" th:field="*{lastName}" />
+				</div>
+			</div>
+
+
+			<div class="form-group d-flex justify-content-center">
+				<label for="email" class="col-lg-2 col-form-label">Email ID</label>
+				<div class="col-lg-6">
+					<input type="email" class="form-control" th:field="*{email}" />
+				</div>
+			</div>
+
+
+
+			<div class="form-group d-flex justify-content-center">
+				<label for="email" class="col-lg-2 col-form-label">Movie
+					Preferences</label>
+				<div class="col-lg-6 mt-1">
+					<div class="form-check form-check-inline"
+						th:each="type, itemStat : ${movieTypes}">
+						<input class="form-check-input" type="checkbox"
+							id="inlineCheckbox1" th:attr="name='preferences[' + ${itemStat.index} + ']'" th:value="${type}">
+						<label class="form-check-label" for="inlineCheckbox1">[[${type}]]</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group d-flex justify-content-center">
+				 <button type="reset" class="btn btn-default">Reset</button>
+				 &nbsp; &nbsp;								
+				<button type="submit" class="btn btn-primary ">Submit</button>
+
+			</div>
+		</form>
+
+
+	</div>
+
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script type="text/javascript"
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

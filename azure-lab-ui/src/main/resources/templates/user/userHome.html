@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create User</title>
+<link rel="stylesheet" media="all"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+
+</head>
+<body>
+	<div class="container mb-3">
+
+		<header>
+
+			<div id="logo" class="row" style="overflow: hidden;">
+				<img th:src="@{/azure.png}" height="auto" align="middle"
+					style="float: left" alt="Azure Lab Demo" />
+				<div style="vertical-align: top;" class="align-middle">
+					<h1>Azure Lab Demo</h1>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<div class="container">
+		 <div class="row">
+		 	<div class="col-6">
+		 		<h2> Welcome [[${user.firstName}]] </h2>
+		 	</div> 
+		 	
+		 	<div class="col-6 float-right">
+		 		<a th:href="@{/user/update}" class="mr-3"> Update Preferences</a>
+		 		
+		 		<a th:href="@{/movie/search}" class="ml-3"> Movie Search</a>	
+		 	</div>
+		 </div>
+		 
+		 <div class="row">
+		 	<div class="col-12">
+		 		<h3>Preferred Movies</h3>
+		 	</div> 
+		 </div>
+		 
+		 <table th:if="${user.movies!=null && user.movies.size() >0}"> 
+		 	<thead>
+		 		<tr>
+		 			<th style="width: 35%"><strong>Title</strong></th>
+		 			<th style="width: 10%"><strong>Year</strong></th> 
+		 			<th style="width: 10%"><strong>Rating</strong></th>
+		 			
+		 		</tr>
+		 	</thead>
+		 
+		 	<tbody>
+		 		<tr th:each="movie: ${user.movies}">
+		 			<th><a th:attr="data-href=@{/}+'movie/'+${movie.id}" id="movieDetails" data-toggle="modal" href="#movieModal">[[${movie.title}]]</a></th>
+		 			<td >[[${movie.year}]]</td>
+		 			<td >[[${movie.rating}]]</td>
+		 	 	</tr>
+		 	</tbody>
+		 </table>
+		 
+		 
+
+	</div>
+
+
+
+	<div class="modal fade" id="movieModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Movie Details</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body"></div>
+
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script type="text/javascript"
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	
+	$('#movieDetails').on('click', function() {
+		var dataURL = $(this).attr('data-href');
+
+		$('#movieModal .modal-body').load(dataURL, function() {
+			$('#movieModal').modal({
+				show : true
+			});
+			 
+		});
+	});		
+	</script>
+
+</body>
+</html>
