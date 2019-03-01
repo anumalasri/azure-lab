@@ -10,6 +10,10 @@ public class Movie {
     private String released;
     private String plot;
     private List<String> genres;
+    private String[] cast;
+    private String[] directors;
+    private IMDB imdb;
+    private Tomatoes tomatoes;
 	public String getTitle() {
 		return title;
 	}
@@ -39,6 +43,30 @@ public class Movie {
 	}
 	public void setGenres(List<String> genres) {
 		this.genres = genres;
+	}
+	public String[] getCast() {
+		return cast;
+	}
+	public void setCast(String[] cast) {
+		this.cast = cast;
+	}
+	public String[] getDirectors() {
+		return directors;
+	}
+	public void setDirectors(String[] directors) {
+		this.directors = directors;
+	}
+	public IMDB getImbd() {
+		return imdb;
+	}
+	public void setImbd(IMDB imdb) {
+		this.imdb = imdb;
+	}
+	public Tomatoes getTomatoes() {
+		return tomatoes;
+	}
+	public void setTomatoes(Tomatoes tomatoes) {
+		this.tomatoes = tomatoes;
 	}
     
     

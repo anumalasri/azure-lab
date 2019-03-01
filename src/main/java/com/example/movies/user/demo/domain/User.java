@@ -7,23 +7,23 @@ import org.springframework.data.annotation.Id;
 public class User {
 	
 	@Id
-    private  String id;
+    private  String _id;
 	
     private String firstName;
     private String lastName;
     private String username;
     private String password;
-    private List<String> moviePreference;
-    private List<Object> movies;
+    private String[] moviePreference;
+    private List<Movie> movies;
 
 
 	public String getId() {
-		return id;
+		return _id;
 	}
 
 
 	public void setId(String id) {
-		this.id = id;
+		this._id = _id;
 	}
 
 
@@ -76,28 +76,28 @@ public class User {
 
 
 
-	public List<String> getMoviePreference() {
+	public String[] getMoviePreference() {
 		return moviePreference;
 	}
 
 
 
-	public void setMoviePreferences(List<String> moviePreference) {
+	public void setMoviePreferences(String[] moviePreference) {
 		this.moviePreference = moviePreference;
 	}
 
 
-	public List<Object> getMovies() {
+	public List<Movie> getMovies() {
 		return movies;
 	}
 
 
-	public void setMovies(List<Object> movies) {
+	public void setMovies(List<Movie> movies) {
 		this.movies = movies;
 	}
 
 
-	public void setMoviePreference(List<String> moviePreference) {
+	public void setMoviePreference(String[] moviePreference) {
 		this.moviePreference = moviePreference;
 	}
 	

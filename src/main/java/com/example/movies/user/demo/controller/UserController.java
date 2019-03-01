@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.movies.user.demo.domain.Movie;
 import com.example.movies.user.demo.domain.User;
+import com.example.movies.user.repository.MovieRepository;
 import com.example.movies.user.repository.UserRepository;
 
 
@@ -20,6 +21,9 @@ public class UserController {
 
 	@Autowired
 	private UserRepository repository;
+
+	@Autowired
+	private MovieRepository movieRepo;
 
 	@PostMapping("/user")
 	User newUser(@RequestBody User newUser) {
@@ -39,21 +43,38 @@ public class UserController {
 		User username=repository.findByUsername(updatedUser.getUsername());
 		if(username != null){
 			repository.deleteById(username.getId());
+			username.setId(username.getUsername());
 			repository.save(updatedUser);//updatedUser.getUsername());
 		}
 		System.out.println("Updated Doc");
 		return updatedUser;
 
 	}
-	
+
 	@GetMapping("/user")
-	List<Object> getMovies(@RequestParam String username) {
+	List<Movie> getMovies(@RequestParam String username) {
 		User user=repository.findByUsername(username);
 
-		
+
 		return user.getMovies();
-		
-		
+
+
 	}
+
+	@PutMapping("/user/movies")
+	List<Movie> updateMoviesCollection(@RequestParam String username) {
+		User user=repository.findByUsername(username);
+		List<Movie> movies=movieRepo.findByGenres(user.getMoviePreference());
+		user.setMovies(movies);
+		repository.save(user);
+
+
+
+		return user.getMovies();
+
+
+	}
+
+
 
 }
